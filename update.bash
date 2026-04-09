@@ -1,9 +1,6 @@
-dirs="bat ghostty helix themes yazi zellij"
-files=".bashrc starship.toml"
-
+dirs="bashrc bat ghostty helix themes yazi zellij"
+files="starship.toml"
 config_dir=~/.config/
-
-mv ~/.bashrc $config_dir
 
 for dir in $dirs; do
   rm -rf $dir
