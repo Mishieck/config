@@ -9,6 +9,9 @@ alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
 
+# Eza
+alias list='eza'
+
 # Python
 alias py='python'
 alias python='python3.14'
